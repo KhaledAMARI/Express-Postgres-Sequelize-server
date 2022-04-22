@@ -6,4 +6,6 @@ To use this NodeJs server you have to:
   * PORT: the server port.
   * DB_PATH: Database Path.
   * JWT_SECRET: a string used to generate the token.
- - Run `npm run start`
+ - Run `npm start`
+
+# PS: This work is not finished yet there are many bugs and i don't have much time or energy to continue
