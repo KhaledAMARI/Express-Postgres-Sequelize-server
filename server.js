@@ -8,7 +8,7 @@ const cors = require('cors');
 const authRoutes = require('./routes/authentication');
 const userRoutes = require('./routes/user');
 const DB = require('./config/dbConfig');
-const notFound = require('./Middlewares/not-found');
+// const notFound = require('./Middlewares/not-found');
 
 // define server port
 const port = process.env.PORT || 3000;
@@ -28,7 +28,7 @@ app.use(cors({origin: '*'}));
 //routes
 app.use('/api/v1/auth', authRoutes);
 app.use('/api/v1/users', userRoutes);
-app.use(notFound);
+// app.use(notFound);
 
 /**
  * @function start
