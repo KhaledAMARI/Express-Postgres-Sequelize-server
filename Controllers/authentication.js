@@ -97,6 +97,5 @@ module.exports = {
   getAllInscriptions,
   login,
   validateInscription,
-  sendToken,
-  updateInscription
+  sendToken
 };
